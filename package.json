@@ -4,7 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "serve": "npx http-server public -p 3000"
   },
   "dependencies": {},
   "devDependencies": {
