@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "tsc && node dist/index.js"
+    "dev": "tsc --watch",
+    "serve": "npx http-server public -p 3000"
   },
   "dependencies": {},
   "devDependencies": {
